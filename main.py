@@ -23,16 +23,15 @@ newdist = distance.replace('m', '')
 #neww = newding.split("delimiter")
 aa = Convert(newdist)
 
-listn = []
+listn = [] #index number of distances within 1 km radius
 for inn in aa:
     if int(inn) < 1000:
-        listn.append(inn)
+        listn.append(aa.index(inn))
         
-litnew = listn.sort()
+#litnew = listn.sort()
 cldistance = ','.join(map(str,listn))
-print(cldistance)
+print(listn)
 
-for i in 
 
 for ele in help1:
     if user == ele:
