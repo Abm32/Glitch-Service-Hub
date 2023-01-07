@@ -34,15 +34,27 @@ for inn in aa:
 cldistance = ','.join(map(str,listn))
 #print(listn)
 
-newlist = [] #names of person available distances within 1 km radius
+newlist = [] #names of peoples available distances within 1 km radius
 for varr in name:
     for num in listn:
         if name.index(varr) == num:
             newlist.append(name[num])
             
-#print(newlist)
-sortednames  = ','.join(map(str,newlist))
-snames = sortednames.replace(',', ', ')#names of person available distances within 1 km radius in string format
+newlist2 = [] #mob number of peoples available distances within 1 km radius
+for var2 in phone:
+    for num in listn:
+        if phone.index(var2) == num:
+            newlist2.append(phone[num])
+
+newlist3 = []# mob and name combined
+for varr in newlist:
+    for var2 in newlist2:
+        if phone.index(var2) == name.index(varr):
+            newlist3.append(varr + " : " + var2)
+            
+#print(newlist3)
+sortednames  = ','.join(map(str,newlist3))
+snames = sortednames.replace(',', ', ')#names of peoples available distances within 1 km radius in string format
 #print(sortednames)
 
 for ele in help1:
@@ -52,4 +64,4 @@ for ele in help1:
             print(string1 + names)
             print("Available within 1 km radius : " + snames)
         else:
-            print(names)
+            print(string1 + names)
