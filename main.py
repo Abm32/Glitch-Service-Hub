@@ -11,8 +11,15 @@ dist = data['distance'].tolist()
 
 user = input('Query: ')
 
-help1 = ["help","Help","HELP"]
+user = input('Query: ')
 
+help1 = ["help","Help","HELP"]
+string1 = "Available peeps : "
+newname = ','.join(map(str,name))
 for ele in help1:
     if user == ele:
-        user2 = input('Emergency Servic: ')
+        user2 = input('Emergency Service (Y/N): ')
+        if user2 == "Y" or user2 == "y":
+            print(string1 + newname)
+        else:
+            print(phone)
