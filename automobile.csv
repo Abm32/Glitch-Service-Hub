@@ -1,11 +1,11 @@
-Timestamp,NAME,Age,gender,phone,Foodhabit,exercise,smoker,alcohol,diabetic,Dopshd,Is your parents  life habit is similar to you?,Dogshd,Email Address
-12/22/2022 16:32:44,Aljo,19,male,+91xxxxxxxxx1,both,sometimes,no,no,no,No,maybe,no,
-12/22/2022 16:32:57,Dhanush ,19,male,+91xxxxxxxxx2,both,sometimes,yes,yes,yes,No,no,yes,
-12/22/2022 16:33:47,Devika Pillai. U,19,Female,+91xxxxxxxxx3,both,daily,no,no,no,No,no,no,
-12/22/2022 16:33:51,Jose,18,Female,+91xxxxxxxxx4,Healthy food,never,no,no,no,yes,maybe,no,
-12/22/2022 16:34:48,Megha s,18,Female,+91xxxxxxxxx5,Junk food,never,no,no,no,No,no,no,
-12/22/2022 16:35:22,Ameya,19,Female,+91xxxxxxxxx6,Healthy food,daily,no,no,no,No,maybe,no,
-12/22/2022 16:35:55,Abhi,26,Female,+91xxxxxxxxx7,Junk food,sometimes,no,yes,no,No,no,yes,
-12/22/2022 16:36:57,Aswathy achu,18,Female,+91xxxxxxxxx8,Healthy food,sometimes,no,no,no,yes,yes,no,
-12/22/2022 16:37:25,Rayan,56,Female,+91xxxxxxxxx9,Junk food,never,yes,yes,yes,yes,no,no,
-12/22/2022 16:37:44,Pothan,21,male,+91xxxxxxxx10,Junk food,never,yes,yes,yes,No,no,yes,
+Timestamp,NAME,Age,gender,phone,distance
+12/22/2022 16:32:44,Aljo,19,male,+91xxxxxxxxx1,100m
+12/22/2022 16:32:57,Dhanush ,19,male,+91xxxxxxxxx2,2km
+12/22/2022 16:33:47,Devika Pillai. U,19,Female,+91xxxxxxxxx3,500m
+12/22/2022 16:33:51,Jose,18,Female,+91xxxxxxxxx4,1.5km
+12/22/2022 16:34:48,Megha s,18,Female,+91xxxxxxxxx5,1.2km
+12/22/2022 16:35:22,Ameya,19,Female,+91xxxxxxxxx6,4km
+12/22/2022 16:35:55,Abhi,26,Female,+91xxxxxxxxx7,150m
+12/22/2022 16:36:57,Aswathy achu,18,Female,+91xxxxxxxxx8,3.6km
+12/22/2022 16:37:25,Rayan,56,Female,+91xxxxxxxxx9,900m
+12/22/2022 16:37:44,Pothan,21,male,+91xxxxxxxx10,100m
