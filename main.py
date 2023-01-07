@@ -9,6 +9,7 @@ name = data['NAME'].tolist()
 phone = data['Phone'].tolist()
 dist = data['distance'].tolist()
 
+
 def Convert(string):
     li = list(string.split(","))
     return li
@@ -20,6 +21,7 @@ string1 = "Available peeps : "
 newname = ','.join(map(str,name))
 distance  = ','.join(map(str,dist))
 newdist = distance.replace('m', '')
+names = newname.replace(',', ', ') #names of available peeps
 #neww = newding.split("delimiter")
 aa = Convert(newdist)
 
@@ -39,11 +41,16 @@ for varr in name:
             newlist.append(name[num])
             
 print(newlist)
+sortednames  = ','.join(map(str,newlist))
+snames = sortednames.replace(',', ', ')#names of person available distances within 1 km radius in string format
+print(sortednames)
 
+#output loop
 for ele in help1:
     if user == ele:
         user2 = input('Emergency Service (Y/N): ')
         if user2 == "Y" or user2 == "y":
-            print(string1 + newname)
+            print(string1 + names)
+            print("Available within 1 km radius : " + snames)
         else:
-            print(phone)
+            print(names)
