@@ -9,17 +9,35 @@ name = data['NAME'].tolist()
 phone = data['Phone'].tolist()
 dist = data['distance'].tolist()
 
-user = input('Query: ')
+def Convert(string):
+    li = list(string.split(","))
+    return li
 
 user = input('Query: ')
 
 help1 = ["help","Help","HELP"]
 string1 = "Available peeps : "
 newname = ','.join(map(str,name))
+distance  = ','.join(map(str,dist))
+newdist = distance.replace('m', '')
+#neww = newding.split("delimiter")
+aa = Convert(newdist)
+
+listn = []
+for inn in aa:
+    if int(inn) < 1000:
+        listn.append(inn)
+        
+litnew = listn.sort()
+cldistance = ','.join(map(str,listn))
+print(cldistance)
+
+for i in 
+
 for ele in help1:
     if user == ele:
         user2 = input('Emergency Service (Y/N): ')
         if user2 == "Y" or user2 == "y":
-            print(string1 + newname)
+            print(string1 + newdist)
         else:
             print(phone)
