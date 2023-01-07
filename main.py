@@ -32,11 +32,18 @@ for inn in aa:
 cldistance = ','.join(map(str,listn))
 print(listn)
 
+newlist = [] #names of person available distances within 1 km radius
+for varr in name:
+    for num in listn:
+        if name.index(varr) == num:
+            newlist.append(name[num])
+            
+print(newlist)
 
 for ele in help1:
     if user == ele:
         user2 = input('Emergency Service (Y/N): ')
         if user2 == "Y" or user2 == "y":
-            print(string1 + newdist)
+            print(string1 + newname)
         else:
             print(phone)
