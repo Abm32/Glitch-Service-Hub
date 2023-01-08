@@ -14,7 +14,7 @@ def Convert(string):
     li = list(string.split(","))
     return li
 
-user = input('Query: ')
+user = input('Query: ') #query input "help" here means choosing book a service in our website
 
 help1 = ["help","Help","HELP"]
 string1 = "Available peeps : "
@@ -57,6 +57,8 @@ sortednames  = ','.join(map(str,newlist3))
 snames = sortednames.replace(',', ', ')#names of peoples available distances within 1 km radius in string format
 #print(sortednames)
 
+
+#actionimplemented after booking a service for ar mechanic
 for ele in help1:
     if user == ele:
         user2 = input('Emergency Service (Y/N): ')
